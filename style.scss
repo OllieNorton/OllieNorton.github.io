@@ -23,7 +23,7 @@ body {
   color: $white;
 }
 table, th, td{
-	border: 10px solid white;
+	border: 7px solid white;
 	
 }
 
@@ -66,7 +66,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $white;
 }
 
 p {
@@ -128,11 +128,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $white;
-  background: $lightGray;
+  background: $white;
 }
 ::selection {
   color: $white;
-  background: $lightGray;
+  background: $white;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -207,7 +207,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -230,14 +230,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $white;
     }
   }
 }
@@ -248,7 +248,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $white;
 }
 
 .posts > .post:last-child {
@@ -259,9 +259,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $white;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $white;
     font-size: 22px;
     font-style: italic;
   }
