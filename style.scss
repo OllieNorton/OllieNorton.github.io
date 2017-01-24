@@ -18,11 +18,13 @@ html {
 }
 
 body { background-image: url(http://cdn.pcwallart.com/images/new-york-skyline-wallpaper-3.jpg); 
-	background: $blue;
+	background: image: url(http://cdn.pcwallart.com/images/new-york-skyline-wallpaper-3.jpg);
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
-
+table(
+ 
+      verticle align: middle) 
 
 .container {
   margin: 0 auto;
