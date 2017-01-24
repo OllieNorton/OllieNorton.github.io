@@ -37,7 +37,7 @@ table, th, td{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: white;
   }
 }
 
@@ -74,11 +74,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $white;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
@@ -122,16 +122,16 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $white;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: $white;
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: $whitek;
   background: $lightGray;
 }
 
