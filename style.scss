@@ -22,7 +22,10 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
-table, th, td
+table, th, td{
+	border: 10px solid black;
+	
+}
 
 
 .container {
