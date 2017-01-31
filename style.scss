@@ -20,7 +20,7 @@ html {
 body { 
 	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0e/00/1c/0e001ccbd286f546a71f6fcc871d6750.jpg);
   font: 18px/1.4 $helvetica;
-  color: $white;
+  color: $black;
 }
 table, th, td{
 	border: 3px solid white;
@@ -37,7 +37,7 @@ table, th, td{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $white;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -66,7 +66,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $white;
+  color: $black;
 }
 
 p {
@@ -74,11 +74,11 @@ p {
 }
 
 a {
-  color: $white;
+  color: $black;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $white;
+    color: $black;
   }
 }
 
@@ -122,17 +122,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $white;
+  color: $balck;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $white;
-  background: $white;
+  color: $black;
+  background: $black;
 }
 ::selection {
-  color: $white;
-  background: $white;
+  color: $black;
+  background: $black;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -197,7 +197,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $black;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -207,7 +207,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $white;
+  color: $black;
   font-size: 16px;
 
   @include mobile {
@@ -230,14 +230,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $black;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $white;
+      color: $black;
     }
   }
 }
